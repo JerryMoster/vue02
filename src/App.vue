@@ -1,23 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo"
-         src="./assets/logo.png" />
-    <HelloWorld />
-    <ComputedAndWatch />
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <!-- <ClassAndStyle /> -->
+    <!-- <IfAndShow /> -->
+    <ListRender />
+    <ListFilter/>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import ComputedAndWatch from './components/ComputedAndWatch.vue'
+// import ClassAndStyle from './components/ClassAndStyle.vue';
+// import IfAndShow from './components/ifAndshow.vue'
+import ListRender from './components/ListRender.vue';
+import ListFilter from './components/ListFilter'
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    ComputedAndWatch
+    // ClassAndStyle,
+    // IfAndShow,
+    ListRender,
+    ListFilter
   }
-};
+}
 </script>
 
 <style lang="less">
